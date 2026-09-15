@@ -99,3 +99,21 @@ body::after {
     margin-bottom: 28px;
  }
 
+ .btn {
+    /*Estiliza o Botão*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    background: #dc2626;
+    color: #fff;
+    padding: 14px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 0 20px rgba(2020, 38, 38, 0.35);
+    transition: all 0.3 ease;
+ }
+
