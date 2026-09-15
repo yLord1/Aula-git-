@@ -48,7 +48,7 @@ body::after {
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1 px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.12);
     padding: 40px 32px;
     border-radius: 24px;
     max-width: 420px;
@@ -89,5 +89,13 @@ body::after {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+ }
+
+ p{
+    /*Estiliza o texto/parárafo*/
+    color: #94a3b8;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 28px;
  }
 
