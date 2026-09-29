@@ -124,3 +124,13 @@ body::after {
     transform: scale(1.02);
  }
 
+ /*Segunda parte do css*/
+ .conteudo{
+   /*Defini o tamanho e a posição da nova sessão*/
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   max-width: 1000px;
+   text-align: center;
+ }
+
