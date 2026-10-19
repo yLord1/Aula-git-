@@ -147,3 +147,17 @@ body::after {
    /*Define o espaço entre os cartões*/
    gap: 20px;
  }
+ .info-card {
+   /*Define o fundo e as bordas dos cartões*/
+   background: rgba(255,255,255,0,04);
+   border: 1px solid rgba(255,255,255,0.12);
+
+   /*Arredonda os Cantos*/
+   border-radius: 18px;
+
+   /*define o espaçamento interno*/
+   padding: 30px;
+
+   /*Alinha o conteúdo à esquerda*/
+   text-align: left;
+ }
