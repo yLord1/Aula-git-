@@ -139,4 +139,11 @@ body::after {
    color: #fff;
    margin-bottom: 30px;
  }
+ .informacoes {
+   /*Define o espaço cartões lado a lado*/
+   display: grid;
+   grid-template-columns: repeat(2, lfr);
 
+   /*Define o espaço entre os cartões*/
+   gap: 20px;
+ }
