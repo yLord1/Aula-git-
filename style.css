@@ -165,6 +165,14 @@ body::after {
    transition: 0.3s ease;
  }   
 
+ .info-card:hover {
+   /*Eleva o cartão quando o mouse passa sobre ele*/
+   transform: translateY(-5px);
+
+   /*Alterna a cor da borda para vermelho*/
+   border-color: #dc2626;
+ }
+
  .info-card h3 {
    /*Estiliza os títulos Git e Github*/
    color: #f87171;
