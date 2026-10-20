@@ -160,4 +160,15 @@ body::after {
 
    /*Alinha o conteúdo à esquerda*/
    text-align: left;
+
+   /*Adiciona uma transição suave*/
+   transition: 0.3s ease;
+ }   
+
+ .info-card h3 {
+   /*Estiliza os títulos Git e Github*/
+   color: #f87171;
+   font-size: 1.4rem;
+   margin-bottom: 15px;
  }
+
