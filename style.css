@@ -14,8 +14,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    position: relative;
+   /*ALTERAÇÃO: permite que a página tenha rolagem*/
+   overflow-x: hidden;
+   overflow-y: auto;
+   position: relative;
+
+   /*NOVO: organaniza os elemntos um abaixo do outro*/
+   flex-direction: column;
+   gap: 60px;
+
+   /*NOVO: adiciona espaçamento nas bordas da página*/
+   padding: 80px 20px;
 }
 
 
@@ -59,8 +68,15 @@ body::after{
     text-align: center;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, border-color 0.3s ease;
+<<<<<<< HEAD
 }
 
+=======
+
+    flex-shrink: 0;
+}
+
+>>>>>>> d062e10704b695e11c7fa452d9c67c54e12b90b4
 .card{
     text-align: center;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
